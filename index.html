@@ -2,18 +2,93 @@
 <html lang="en" class="dark scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BLANC | WE MAKE DIRTY DISAPPEAR — Swiss Garment Studio</title>
-    <meta name="description" content="Swiss minimalist garment care studio. We make dirty disappear through precision washing, eco dry cleaning, and artisan steam pressing. 24h pickup & delivery." />
     
+    <!-- SEO Core Meta Tags -->
+    <meta name="description" content="Swiss minimalist garment care studio in Kuala Lumpur & Selangor. Precision washing, organic solvent-free dry cleaning, artisan steam press & 24h doorstep pickup." />
+    <meta name="keywords" content="laundry service Kuala Lumpur, eco dry cleaning KL, artisan steam press, doorstep laundry pickup Selangor, premium garment care, BLANC laundry, dry clean service KLCC, Mont Kiara laundry" />
+    <meta name="author" content="BLANC Swiss Garment Studio" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://laundry.pages.dev/" />
+
+    <!-- PWA & Theme Color -->
+    <meta name="theme-color" content="#0D0D0E" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="BLANC Laundry" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_MY" />
+    <meta property="og:url" content="https://laundry.pages.dev/" />
+    <meta property="og:title" content="BLANC | WE MAKE DIRTY DISAPPEAR — Swiss Garment Studio" />
+    <meta property="og:description" content="Swiss minimalist garment care studio in Kuala Lumpur & Selangor. Precision washing, organic solvent-free dry cleaning, artisan steam press & 24h doorstep pickup." />
+    <meta property="og:site_name" content="BLANC Swiss Garment Studio" />
+    <meta property="og:image" content="https://laundry.pages.dev/images/clean_shirt.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="BLANC Swiss Garment Studio - Artisan Garment Care" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BLANC | WE MAKE DIRTY DISAPPEAR — Swiss Garment Studio" />
+    <meta name="twitter:description" content="Swiss minimalist garment care studio. 24h doorstep pickup across Kuala Lumpur & Selangor." />
+    <meta name="twitter:image" content="https://laundry.pages.dev/images/clean_shirt.jpg" />
+
     <!-- Synchronized Content Security Policy -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob: 'unsafe-inline'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' https: data:; connect-src 'self' https: wss:;" />
     
-    <!-- Typography: Inter & Space Grotesk -->
+    <!-- Lighthouse Font Performance & Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data: JSON-LD Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "DryCleaningOrLaundry",
+      "name": "BLANC Swiss Garment Studio",
+      "image": "https://laundry.pages.dev/images/clean_shirt.jpg",
+      "description": "Swiss minimalist garment care studio. We make dirty disappear through precision washing, eco dry cleaning, and artisan steam pressing.",
+      "telephone": "+60 11-3071 9502",
+      "url": "https://laundry.pages.dev/",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kuala Lumpur",
+        "addressRegion": "Selangor",
+        "addressCountry": "MY"
+      },
+      "areaServed": [
+        "Kuala Lumpur",
+        "Selangor",
+        "KLCC",
+        "Bangsar",
+        "Mont Kiara",
+        "Damansara",
+        "Petaling Jaya",
+        "Subang"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "22:00"
+      }
+    }
+    </script>
   </head>
   <body class="bg-[#0D0D0E] text-[#F3F3F1] selection:bg-[#E2E2DE] selection:text-[#0D0D0E] font-sans antialiased overflow-x-hidden">
     <div id="root"></div>

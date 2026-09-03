@@ -100,7 +100,11 @@ export const Services: React.FC<ServicesProps> = ({ onOpenBooking }) => {
                 <div className="w-full h-36 mb-6 overflow-hidden border border-[#26262A] relative">
                   <img
                     src={s.image}
-                    alt={s.title}
+                    alt={`${s.title} - BLANC Swiss Laundry Service`}
+                    loading="lazy"
+                    decoding="async"
+                    width="400"
+                    height="250"
                     className="w-full h-full object-cover filter grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-80"></div>

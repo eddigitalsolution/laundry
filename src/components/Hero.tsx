@@ -104,7 +104,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               <div className="relative w-full h-48 sm:h-64 my-auto overflow-hidden border border-[#26262A]">
                 <img
                   src="/images/dry_shirt.jpg"
-                  alt="Real Pristine Oxford Dress Shirt"
+                  alt="Real Pristine Oxford Dress Shirt - BLANC Swiss Garment Care"
+                  loading="eager"
+                  // @ts-ignore - fetchpriority is valid in standard modern browsers
+                  fetchpriority="high"
+                  decoding="async"
+                  width="600"
+                  height="400"
                   className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#141416] via-transparent to-transparent opacity-40"></div>

@@ -290,7 +290,11 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/dirty_shirt.jpg"
-                    alt="Stage 01 DIRTY Real Photo"
+                    alt="Stage 01 DIRTY Real Photo - BLANC Swiss Laundry"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="800"
                     className="w-full h-full object-cover filter contrast-110 group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
@@ -301,7 +305,11 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/wash_shirt.jpg"
-                    alt="Stage 02 WASH Real Photo"
+                    alt="Stage 02 WASH Real Photo - BLANC Swiss Laundry"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="800"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-cyan-950/25 mix-blend-overlay"></div>
@@ -313,7 +321,11 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/dry_shirt.jpg"
-                    alt="Stage 03 DRY Real Photo"
+                    alt="Stage 03 DRY Real Photo - BLANC Swiss Laundry"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="800"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
@@ -324,7 +336,11 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/fold_shirt.jpg"
-                    alt="Stage 04 FOLD Real Photo"
+                    alt="Stage 04 FOLD Real Photo - BLANC Swiss Laundry"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="800"
                     className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-indigo-950/20 mix-blend-overlay"></div>
@@ -336,7 +352,11 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/clean_shirt.jpg"
-                    alt="Stage 05 CLEAN Real Photo"
+                    alt="Stage 05 CLEAN Real Photo - BLANC Swiss Laundry"
+                    loading="lazy"
+                    decoding="async"
+                    width="1200"
+                    height="800"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-70"></div>

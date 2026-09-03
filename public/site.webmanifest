@@ -1,0 +1,17 @@
+{
+  "name": "BLANC Swiss Garment Studio",
+  "short_name": "BLANC Laundry",
+  "description": "Swiss minimalist garment care studio. Precision washing, organic dry cleaning, and artisan steam pressing with 24h doorstep pickup.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D0E",
+  "theme_color": "#0D0D0E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
