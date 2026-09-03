@@ -15,10 +15,15 @@ alwaysApply: true
   Referrer-Policy: strict-origin-when-cross-origin
 ```
 
-## 2. SPA Routing Fallback (`public/_redirects`)
-```http
-/* /index.html 200
+## 2. SPA Routing Fallback (`wrangler.jsonc`)
+```json
+"assets": {
+  "directory": "./dist",
+  "not_found_handling": "single-page-application"
+}
 ```
+*Note: Do not put `/* /index.html 200` in `_redirects` as Cloudflare Workers Assets flags it as an infinite loop (code: 100324).*
+
 
 ## 3. Meta Tag CSP Synchronization (`index.html`)
 ```html

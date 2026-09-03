@@ -1,2 +1,3 @@
-# Cloudflare Pages SPA Routing Fallback
-/* /index.html 200
+# Cloudflare SPA routing handled natively via wrangler.jsonc (not_found_handling: "single-page-application")
+# Add custom 301/302 redirects below if needed.
+
