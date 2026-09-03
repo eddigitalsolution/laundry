@@ -84,6 +84,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
             }}
             className="relative my-8 sm:my-10 w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 flex items-center justify-center group cursor-pointer"
             onClick={onOpenBooking}
+            id="hero-shirt-card"
           >
             {/* Ambient Backlight Aura */}
             <div className="absolute inset-0 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-700"></div>

@@ -121,6 +121,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
               href="#process"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#A0A09A] hover:text-[#F3F3F1] py-1"
+              id="mobile-nav-process"
             >
               PROCESS
             </a>
@@ -128,6 +129,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
               href="#services"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#A0A09A] hover:text-[#F3F3F1] py-1"
+              id="mobile-nav-services"
             >
               SERVICES
             </a>
@@ -135,6 +137,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
               href="#pricing"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#A0A09A] hover:text-[#F3F3F1] py-1"
+              id="mobile-nav-pricing"
             >
               PRICING
             </a>
@@ -142,6 +145,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
               href="#faq"
               onClick={() => setMobileMenuOpen(false)}
               className="text-[#A0A09A] hover:text-[#F3F3F1] py-1"
+              id="mobile-nav-faq"
             >
               FAQ
             </a>
@@ -151,6 +155,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-emerald-400 font-bold"
+                id="mobile-whatsapp-direct"
               >
                 <PhoneCall className="w-3.5 h-3.5" />
                 <span>+60 11-3071 9502 (WhatsApp)</span>
@@ -161,6 +166,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
                   onOpenBooking();
                 }}
                 className="w-full bg-[#F3F3F1] text-[#0D0D0E] font-bold py-3 text-center"
+                id="mobile-btn-book-pickup"
               >
                 SCHEDULE PICKUP
               </button>
