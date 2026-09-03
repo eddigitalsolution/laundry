@@ -1,4 +1,4 @@
-﻿# BLANC / LAUNDRY — Swiss Garment Studio
+# BLANC / LAUNDRY — Swiss Garment Studio
 
 > **"WE MAKE DIRTY DISAPPEAR."**
 > A precision garment washing, solvent-free dry cleaning, and artisan steam pressing web application built with React 19, TypeScript, Vite, Tailwind CSS v4, and Framer Motion.
@@ -46,17 +46,15 @@ This repository enforces global agent standards and architecture guidelines thro
 
 ---
 
-## 📜 Global Setup & Markdown Rules (.md) Manifest
+## 📜 Global Setup & Markdown Rules (.md)
 
-This project enforces architectural standards across structured Markdown rules:
+This project enforces global agent standards and architecture guidelines through structured Markdown rules across all project domains:
 
-| Document | Description |
-| :--- | :--- |
-| **[`GEMINI.md`](GEMINI.md)** | Main project instruction manifest linking active workspace rules, commands, and architecture standards. |
-| **[`.agents/rules/project-standards.md`](.agents/rules/project-standards.md)** | Global rules covering UI/UX editorial design, React 19 + TypeScript standards, form accessibility (`autoComplete`), CSP security headers, SPA routing, and build/deploy workflows. |
-| **[`.agents/rules/cloudflare-setup.md`](.agents/rules/cloudflare-setup.md)** | Cloudflare Pages & Workers static hosting configuration (CSP header setup, SPA route rewrites, build environment). |
-| **[`.agents/rules/contact-details.md`](.agents/rules/contact-details.md)** | Global contact and WhatsApp business details standard (`+60 11-3071 9502`). |
-| **[`CLOUDFLARE.md`](CLOUDFLARE.md)** | Quick-reference deployment guide for Cloudflare static configuration (`public/_headers` & `public/_redirects`). |
+- **[`GEMINI.md`](GEMINI.md)**: Main project instruction manifest linking active workspace rules, commands, and architecture standards.
+- **[`.agents/rules/project-standards.md`](.agents/rules/project-standards.md)**: Global project rules covering UI/UX editorial design, React 19 + TypeScript standards, form accessibility (`autoComplete`), CSP security headers, SPA routing, and build/deploy workflows.
+- **[`.agents/rules/cloudflare-setup.md`](.agents/rules/cloudflare-setup.md)**: Global setup rule for Cloudflare Pages & Workers static hosting (CSP header configuration, native SPA routing, build environment).
+- **[`.agents/rules/contact-details.md`](.agents/rules/contact-details.md)**: Global contact and WhatsApp business details standard (`+60 11-3071 9502`).
+- **[`CLOUDFLARE.md`](CLOUDFLARE.md)**: Quick-reference deployment guide for Cloudflare static configuration (`wrangler.jsonc`, `public/_headers`, & `200.html`).
 
 ---
 
@@ -83,11 +81,20 @@ npm run preview
 
 ---
 
-## ☁️ Cloudflare Pages Deployment Settings
+## ☁️ Cloudflare Pages Deployment & Smooth Configuration
 
-| Setting | Value |
-| :--- | :--- |
-| **Framework Preset** | Vite |
-| **Build Command** | `npm run build` |
-| **Build Output Directory** | `dist` |
-| **Environment Variable** | `NODE_VERSION=20` |
+To ensure zero-downtime, error-free deployment on Cloudflare Pages:
+
+| Setting | Value | Description |
+| :--- | :--- | :--- |
+| **Framework Preset** | Vite | Standard React + Vite setup |
+| **Build Command** | `npm run build` | Compiles TypeScript and builds assets into `dist/` |
+| **Build Output Directory** | `dist` | Path to production assets |
+| **Environment Variable** | `NODE_VERSION=20` | Guarantees compatibility with Node 20 LTS |
+
+### 🚀 Key Files for Smooth Cloudflare Deployment
+
+1. **`public/_headers`**: Controls CSP & edge security headers.
+2. **`public/_redirects`**: Configures `/* /index.html 200` to prevent 404s on sub-route refreshes.
+3. **`CLOUDFLARE.md`**: Refer to [`CLOUDFLARE.md`](CLOUDFLARE.md) for complete deployment reference (`wrangler.jsonc`, `public/_headers`, & `200.html`).
+
