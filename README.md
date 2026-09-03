@@ -92,9 +92,9 @@ To ensure zero-downtime, error-free deployment on Cloudflare Pages:
 | **Build Output Directory** | `dist` | Path to production assets |
 | **Environment Variable** | `NODE_VERSION=20` | Guarantees compatibility with Node 20 LTS |
 
-### 🚀 Key Files for Smooth Cloudflare Deployment
+1. **`wrangler.jsonc`**: Native SPA asset configuration (`"not_found_handling": "single-page-application"`).
+2. **`public/_headers`**: Controls CSP & edge security headers.
+3. **`public/_redirects`**: Custom 301/302 rules (do NOT put `/* /index.html 200` to avoid Cloudflare code `100324` loop errors).
+4. **`CLOUDFLARE.md`**: Refer to [`CLOUDFLARE.md`](CLOUDFLARE.md) for complete deployment reference (`wrangler.jsonc`, `public/_headers`, & `200.html`).
 
-1. **`public/_headers`**: Controls CSP & edge security headers.
-2. **`public/_redirects`**: Configures `/* /index.html 200` to prevent 404s on sub-route refreshes.
-3. **`CLOUDFLARE.md`**: Refer to [`CLOUDFLARE.md`](CLOUDFLARE.md) for complete deployment reference (`wrangler.jsonc`, `public/_headers`, & `200.html`).
 
