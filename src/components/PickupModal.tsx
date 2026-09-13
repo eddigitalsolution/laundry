@@ -54,8 +54,8 @@ export const PickupModal: React.FC<PickupModalProps> = ({ isOpen, onClose }) => 
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md overflow-y-auto">
-      <div className="bg-[#0D0D0E] border border-[#26262A] w-full max-w-2xl p-6 sm:p-8 relative my-8 text-[#F3F3F1] shadow-2xl">
+    <div className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-3 sm:p-6 bg-black/80 backdrop-blur-md overflow-y-auto max-h-screen">
+      <div className="bg-[#0D0D0E] border border-[#26262A] w-full max-w-2xl p-4 sm:p-8 relative my-4 sm:my-8 text-[#F3F3F1] shadow-2xl rounded-none">
         
         {/* Close Button */}
         <button
@@ -282,14 +282,14 @@ export const PickupModal: React.FC<PickupModalProps> = ({ isOpen, onClose }) => 
             </div>
 
             {/* Submit Button */}
-            <div className="pt-4">
+            <div className="pt-3 sm:pt-4">
               <button
                 type="submit"
-                className="w-full bg-[#F3F3F1] text-[#0D0D0E] font-bold py-4 text-sm tracking-wider hover:bg-white transition-all flex items-center justify-center gap-2 cursor-pointer shadow-xl"
+                className="w-full bg-[#F3F3F1] text-[#0D0D0E] font-bold py-3.5 sm:py-4 px-3 text-xs sm:text-sm tracking-wider hover:bg-white transition-all flex items-center justify-center gap-2 cursor-pointer shadow-xl text-center leading-snug"
                 id="pickup-form-submit"
               >
                 <span>CONFIRM PICKUP & SYNC WITH WHATSAPP</span>
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 shrink-0" />
               </button>
             </div>
 

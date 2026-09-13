@@ -215,7 +215,7 @@ export const SignatureProcess: React.FC = () => {
           </div>
 
           {/* Right Column: Full-Screen Pure Photography Canvas (Zero Icons) */}
-          <div className="lg:col-span-8 relative min-h-[480px] sm:min-h-[560px] lg:min-h-[620px] bg-[#0D0D0E] border border-[#26262A] flex items-center justify-center p-2 sm:p-4 overflow-hidden">
+          <div className="lg:col-span-8 relative min-h-120 sm:min-h-140 lg:min-h-155 bg-[#0D0D0E] border border-[#26262A] flex items-center justify-center p-2 sm:p-4 overflow-hidden">
             
             {/* Background Swiss Grid */}
             <div className="absolute inset-0 swiss-grid opacity-25 pointer-events-none"></div>
@@ -284,7 +284,7 @@ export const SignatureProcess: React.FC = () => {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.98, opacity: 0 }}
               transition={{ duration: 0.6 }}
-              className="relative w-full h-[450px] sm:h-[520px] lg:h-[580px] overflow-hidden border border-[#26262A] shadow-2xl group"
+              className="relative w-full h-112.5 sm:h-130 lg:h-145 overflow-hidden border border-[#26262A] shadow-2xl group"
             >
               {activeStageId === 'DIRTY' && (
                 <div className="w-full h-full relative">
@@ -297,7 +297,7 @@ export const SignatureProcess: React.FC = () => {
                     height="800"
                     className="w-full h-full object-cover filter contrast-110 group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
                 </div>
               )}
 
@@ -313,7 +313,7 @@ export const SignatureProcess: React.FC = () => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-cyan-950/25 mix-blend-overlay"></div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
                 </div>
               )}
 
@@ -328,7 +328,7 @@ export const SignatureProcess: React.FC = () => {
                     height="800"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
                 </div>
               )}
 
@@ -336,7 +336,7 @@ export const SignatureProcess: React.FC = () => {
                 <div className="w-full h-full relative">
                   <img
                     src="/images/fold_shirt.jpg"
-                    alt="Stage 04 FOLD Real Photo - BLANC Swiss Laundry"
+                    alt="Stage 04 FOLD Swiss Steam Pressed & Precision Folded Dress Shirts"
                     loading="lazy"
                     decoding="async"
                     width="1200"
@@ -344,7 +344,7 @@ export const SignatureProcess: React.FC = () => {
                     className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-indigo-950/20 mix-blend-overlay"></div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0D0D0E] via-transparent to-transparent opacity-60"></div>
                 </div>
               )}
 
@@ -359,7 +359,7 @@ export const SignatureProcess: React.FC = () => {
                     height="800"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0D0E] via-transparent to-transparent opacity-70"></div>
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0D0D0E] via-transparent to-transparent opacity-70"></div>
                 </div>
               )}
 
